@@ -21,6 +21,8 @@ The input `haystack` string will be split based on if the string contains the fo
 
 ## Calling the Method
 To call the method, you would need an input string `haystack` and an input string array `needles`.
+
+Example:
 ```
 String haystack = "This is an example string!";
 String[] needles = {"example","here","string"};
@@ -41,7 +43,7 @@ cat: 1`
 ## Test Cases
 We have a variety of test cases to show some outputs and limitations.
 
-**Case #1**
+## Case #1
 
 ```
 String haystack = "Sam loves green eggs and ham";
@@ -52,7 +54,7 @@ findNeedles(haystack, needles);
 **Console Output**
 ![](img/testcase1.png)
 
-**Case #2**
+### Case #2
 ```
 String haystack = "Rise and shine, it's morning time";
 String[] needles = {"xhbau","times","rise","shine"};
@@ -61,7 +63,7 @@ findNeedles(haystack, needles);
 **Console Output**
 ![](img/testcase2.png)
 
-**Case #3**
+### Case #3
 ```
 String haystack = "I'm happy to be here";
 String[] needles = {"I", "live", "here"};
@@ -70,7 +72,7 @@ findNeedles(haystack, needles);
 **Console Output**
 ![](img/testcase3.png)
 
-**Case #4**
+### Case #4
 ```
 String haystack = "Happy to be in San Francisco";
 String[] needles = {"22","live","8","in","xyz","8129"};
@@ -79,7 +81,7 @@ findNeedles(haystack, needles);
 **Console Output**
 ![](img/testcase4.png)
 
-**Case #5**
+### Case #5
 ```
 String haystack = "John Doe has a cat named Cat";
 String[] needles = {"John", "cat", "Cat"};
