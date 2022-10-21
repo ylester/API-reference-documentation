@@ -43,7 +43,7 @@ cat: 1`
 ## Test Cases
 We have a variety of test cases to show some outputs and limitations.
 
-## Case #1
+## Case #1 - We have needles in the haystack
 
 ```
 String haystack = "Sam loves green eggs and ham";
@@ -52,40 +52,78 @@ findNeedles(haystack, needles);
 ```
 
 **Console Output**
+
 ![](img/testcase1.png)
 
-### Case #2
+### Case #2 - Does not detect "shine" due to puncutation
 ```
 String haystack = "Rise and shine, it's morning time";
-String[] needles = {"xhbau","times","rise","shine"};
+String[] needles = {"xhbau","times","Rise","shine"};
 findNeedles(haystack, needles);
 ```
 **Console Output**
-![](img/testcase2.png)
 
-### Case #3
+![](img/testcase2.1.png)
+
+### Case #3 - Detects "I" because of the haystack split
 ```
 String haystack = "I'm happy to be here";
 String[] needles = {"I", "live", "here"};
 findNeedles(haystack, needles);
 ```
 **Console Output**
+
 ![](img/testcase3.png)
 
-### Case #4
+### Case #4 - Array greater than five words
 ```
 String haystack = "Happy to be in San Francisco";
 String[] needles = {"22","live","8","in","xyz","8129"};
 findNeedles(haystack, needles);
 ```
 **Console Output**
+
 ![](img/testcase4.png)
 
-### Case #5
+### Case #5 - Duplicate search words in needles array
+```
+String haystack = "Test string saying hello!";
+String[] needles = {"Test", "Test", "cheese"};
+findNeedles(haystack, needles);
+```
+
+**Console Output**
+
+![](img/testcase7.png)
+
+### Case #6 - Case sensitive
 ```
 String haystack = "John Doe has a cat named Cat";
 String[] needles = {"John", "cat", "Cat"};
 findNeedles(haystack, needles);
 ```
 **Console Output**
+
 ![](img/testcase5.png)
+
+### Case #7 - Empty Parameters
+```
+String haystack = "";
+String[] needles = {};
+findNeedles(haystack, needles);
+```
+
+**Console Output**
+
+![](img/testcase6.png)
+
+### Case #8 - Empty Array
+```
+String haystack = "Test string saying hello!";
+String[] needles = {};
+findNeedles(haystack, needles);
+```
+
+**Console Output**
+
+![](img/testcase6.png)
