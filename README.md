@@ -1,2 +1,3 @@
 # API-reference-documentation
-API reference documentation markdown sample
+
+This repository contains samples of API reference documentation written in markdown.
