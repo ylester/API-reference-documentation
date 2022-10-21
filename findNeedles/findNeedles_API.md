@@ -50,7 +50,7 @@ findNeedles(haystack, needles);
 ```
 
 **Console Output**
-![](/img/testcase1.png)
+![](img/testcase1.png)
 
 **Case #2**
 ```
@@ -59,7 +59,7 @@ String[] needles = {"xhbau","times","rise","shine"};
 findNeedles(haystack, needles);
 ```
 **Console Output**
-![](/img/testcase2.png)
+![](img/testcase2.png)
 
 **Case #3**
 ```
@@ -68,7 +68,7 @@ String[] needles = {"I", "live", "here"};
 findNeedles(haystack, needles);
 ```
 **Console Output**
-![](/img/testcase3.png)
+![](img/testcase3.png)
 
 **Case #4**
 ```
@@ -77,7 +77,7 @@ String[] needles = {"22","live","8","in","xyz","8129"};
 findNeedles(haystack, needles);
 ```
 **Console Output**
-![](/img/testcase4.png)
+![](img/testcase4.png)
 
 **Case #5**
 ```
@@ -86,4 +86,4 @@ String[] needles = {"John", "cat", "Cat"};
 findNeedles(haystack, needles);
 ```
 **Console Output**
-![](/img/testcase5.png)
+![](img/testcase5.png)
